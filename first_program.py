@@ -67,7 +67,8 @@ second = float(input("Enter your First Number: "))
 third = float(input("Enter your second number: "))
 result = (second + third)**3
 print(result)
-worst = input('aryan')
+aryan = input('aryan')
+
 best = input('ashaz')
 lucky = input('nishad')
 print('Name   grade geo his')
