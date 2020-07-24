@@ -1,0 +1,12 @@
+int, str, float, for loop completed
+if, if elif, if else completed
+
+list - is a datatype
+a  = 10
+b = 20.5 
+c = "aryan"
+
+l = []  --> is called as empty list and can contain any datatype of python.
+list1 = [10, 20, 40, 50, 90, 100]
+list2 = [10.5, 50, 40, 'aryan', 20, 55.52]
+

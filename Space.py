@@ -1,4 +1,3 @@
-
 '''
 This  Program is called Space Finder. To help Traverllers.
 
@@ -25,59 +24,193 @@ elif (namee.strip()).lower() == "jupiter" :
     print("It means that you are from jupiter")
 elif (namee.strip()).lower() == "saturn" :
     print("It means that you are from saturn")
-elif (namee.strip()).lower() == "Uranus" :
+elif (namee.strip()).lower() == "uranus" :
     print("It means that you are from uranus")   
-elif (namee.strip()).lower() == "Neptune" :
+elif (namee.strip()).lower() == "neptune" :
     print("It means that you are from neptune")                           
 else:
     print("I have never heard of %s planet in my family. Try another place"%namee)
-
+    
 
 # Take a request to Travel
 place = input("which planet do you want to travel in the solar system: ") 
 
 
-# Validating the Travel request
-if place == "mercury" or "Mercury" and namee == "earth" or "Earth":    
-        print(" Mercury is 115.36 million km away from earth and if you are traveling in 140,000 mph, it can take up to 6 and a half years to reach your desired location")
+############ Validating the Travel request #############
 
-if place == "venus" or "Venus" and namee == "earth" or "Earth":    
-        print("Venus is 76.15 million km away from earth and is you travel 12000mph, it can take 15 months to reach your desired location")        
+## Travel FROM EARTH to Other Planets
+if (namee.strip()).lower() == 'earth' and (place.strip()).lower() == 'mercury':
+    print("91,691,000km is the distance from earth to mercury")
+    
 
-if place == "Mars" or "mars" and namee == "earth" or "Earth":    
-        print("106.35 million km is the distance from earth to mars and it would take roughly 8 months to reach your desired location depending on which spacecraft you are travelling with.")
-        
-if place == "Jupiter" or "jupiter" and namee == "earth" or "Earth":    
-        print("620.25 million km is the distance from earth to jupiter and it would take 13 months to reach your desired location")
-        
-if place == "Uranus" or "uranus" and namee == "earth" or "Earth":    
-        print("It would take around 3 to 4 yers to reach there because it 2.9895 billion km away from your home planet")
-        
-if place == "neptune" or "Neptune" and namee == "earth" or "Earth":    
-        print("4.3826 billion km is the distance from earth of neptune and it would take 8 years to reach there ")
-       
-if place == "Saturn" or "saturn" and namee == "earth" or "Earth":    
-        print("1.3428 billion km is the distance from earth to saturn and it would take 23 months to reach there")
+elif (namee.strip()).lower() == 'earth' and (place.strip()).lower() == 'venus':
+    print("41,400,000km is the distance from from earth to venus")
+    print("")   
+
+elif (namee.strip()).lower() == 'earth' and (place.strip()).lower() == 'mars': 
+    print("78,340,000km is the distance from earth to mars")
+    print("")
+
+elif (namee.strip()).lower() == 'earth' and (place.strip()).lower() == 'jupiter':
+    print("628,730,000km is the distance from earth to jupiter")
+    print("")
+elif (namee.strip()).lower() == 'earth' and (place.strip()).lower() == 'saturn':
+    print("1,275,000,000km is the distancevfrom earth to saturn")
+    print("")
+elif (namee.strip()).lower() == 'earth' and (place.strip()).lower() == 'uranus':
+    print("2,723,950,000km is the distance from earth to uranus")
+    print("")
+
+elif (namee.strip()).lower()  == 'earth' and (place.strip()).lower() == 'neptune':
+    print('4,351,400,000km is the distance from earth to neptune')
+    print("")
 
 
-# Validating  Travel request in phase2       
-if place == "Venus" or "venus" and namee == "mercury" or "Mercury":    
-        print(" Earth is 115.36 million km away from mars and if you are traveling in 140,000 mph, it can take up to 6 and a half years to reach earth")
+## Travel FROM MERCURY to Other Planets
+if (namee.strip()).lower() == 'mercury' and (place.strip()).lower() == 'earth':
+    print("91,691,000km is the distance from mercury to earth")
 
-if place == "earth" or "earth" and namee == "mercury" or "Mercury":    
-        print("earth is 76.15 million km away from venus and is you travel 12000mph, it can take 15 months to reach venus")        
 
-if place == "Mars" or "mars" and namee == "mercury" or "Mercury":    
-        print("106.35 million km is the distance from earth to mars and it would take roughly 8 months to reach your desired location depending on which spacecraft you are travelling with.")
+elif (namee.strip()).lower() == 'mercury' and (place.strip()).lower() == 'venus':
+    print("50,290,000km is the distance from mercury to venus")
 
-if place == "Jupiter" or "jupiter" and namee == "mercury" or "Mercury":    
-        print("620.25 million km is the distance from earth to jupiter and it would take 13 months to reach your desired location")
+elif (namee.strip()).lower() == 'mercury' and (place.strip()).lower() == 'mars': 
+    print("170,030,000km is the distance from mercury to mars")
 
-if place == "Uranus" or "uranus" and namee == "mercury" or "Mercury":    
-        print("It would take around 3 to 4 yers to reach there because it 2.9895 billion km away from your home planet")
-        
-if place == "neptune" or "Neptune" and namee == "Mercury" or "mercury":    
-        print("4.3826 billion km is the distance from earth of neptune and it would take 8 years to reach there ")
-        
-if place == "Saturn" or "saturn" and namee == "mercury" or "mercury":    
-        print("1.3428 billion km is the distance from earth to saturn and it would take 23 months to reach there")
+elif (namee.strip()).lower() == 'mercury' and (place.strip()).lower() == 'jupiter':
+    print("720,420,000km is the distance from mercury to jupiter")
+
+elif (namee.strip()).lower() == 'mercury' and (place.strip()).lower() == 'saturn':
+    print("1,366,690,000km is the distance from mercury to saturn")
+
+elif (namee.strip()).lower() == 'mercury' and (place.strip()).lower() == 'uranus':
+    print("2,815,640,000km is the distance from mercury to uranus")
+    
+elif (namee.strip()).lower()  == 'mercury' and (place.strip()).lower() == 'neptune':
+    print('4,443,090,000km is the distance from mercury to neptune')
+
+
+## Travel FROM VENUS to Other Planets
+if (namee.strip()).lower() == 'venus' and (place.strip()).lower() == 'earth':
+    print("41,400,000km is the distance from venus to earth")
+    
+elif (namee.strip()).lower() == 'venus' and (place.strip()).lower() == 'mercury':
+    print("50,290,000km is the distance from venus to mercury")
+
+elif (namee.strip()).lower() == 'venus' and (place.strip()).lower() == 'mars': 
+    print("119,740,000km is the distance from venus to mars")
+
+elif (namee.strip()).lower() == 'venus' and (place.strip()).lower() == 'jupiter':
+    print("670,130,000km is the distance from venus to jupiter")
+
+elif (namee.strip()).lower() == 'venus' and (place.strip()).lower() == 'saturn':
+    print("1,316,400,000km is the distance from venus to saturn")
+
+elif (namee.strip()).lower() == 'venus' and (place.strip()).lower() == 'uranus':
+    print("2,765,350,000km is the distance from venus to uranus")
+
+elif (namee.strip()).lower()  == 'venus' and (place.strip()).lower() == 'neptune':
+    print('4,392,800,000km is the distance from venus to neptune')
+
+
+## Travel FROM MARS to Other Planets
+if (namee.strip()).lower() == 'mars' and (place.strip()).lower() == 'earth':
+    print("78,340,000km is the distanc from mars to earth")
+
+elif (namee.strip()).lower() == 'mars' and (place.strip()).lower() == 'mercury':
+    print("170,030,000km is the distance from mars to mercury")
+
+elif (namee.strip()).lower() == 'mars' and (place.strip()).lower() == 'venus': 
+    print("119,740,000km is the distance from mars to venus")
+
+elif (namee.strip()).lower() == 'mars' and (place.strip()).lower() == 'jupiter':
+    print("4,392,800,000km is the distance from mars to jupiter")
+
+elif (namee.strip()).lower() == 'mars' and (place.strip()).lower() == 'saturn':
+    print("1,196,660,000km is the distance from mars to saturn")
+
+elif (namee.strip()).lower() == 'mars' and (place.strip()).lower() == 'uranus':
+    print("2,645,610,000km is the distance from mars to uranus")
+
+elif (namee.strip()).lower()  == 'mars' and (place.strip()).lower() == 'neptune':
+    print('4,273,060,000km is the distance from mars to neptune')
+
+
+## Travel FROM JUPITER to Other Planets
+if (namee.strip()).lower() == 'jupiter' and (place.strip()).lower() == 'earth':
+    print("628,730,000km is the distance from jupiter to earth")
+
+elif (namee.strip()).lower() == 'jupiter' and (place.strip()).lower() == 'mercury':
+    print("720,420,000km is the distance from jupiter to mercury")
+
+elif (namee.strip()).lower() == 'jupiter' and (place.strip()).lower() == 'venus': 
+    print("670,130,000km is the distance from jupiter to venus")
+
+elif (namee.strip()).lower() == 'jupiter' and (place.strip()).lower() == 'mars':
+    print("4,392,800,000km is the distance from jupiter to mars")
+
+elif (namee.strip()).lower() == 'jupiter' and (place.strip()).lower() == 'saturn':
+    print("646,270,000km is the distance from jupiter to saturn")
+
+elif (namee.strip()).lower() == 'jupiter' and (place.strip()).lower() == 'uranus':
+    print("2,095,220,000km is the distance from jupiter to uranus")
+
+elif (namee.strip()).lower()  == 'jupiter' and (place.strip()).lower() == 'neptune':
+    print('3,722,670,000km is the distance from jupiter to neptune')
+
+
+## Travel FROM SATURN to Other Planets
+if (namee.strip()).lower() == 'saturn' and (place.strip()).lower() == 'earth':
+    print("1,275,000,000km is the distance from saturn to earth")
+
+elif (namee.strip()).lower() == 'saturn' and (place.strip()).lower() == 'mercury':
+    print("1,366,690,000km is the distance from saturn to mercury")
+
+elif (namee.strip()).lower() == 'saturn' and (place.strip()).lower() == 'venus': 
+    print("1,316,400,000km is the distance from saturn to venus")
+
+elif (namee.strip()).lower() == 'saturn' and (place.strip()).lower() == 'mars':
+    print("1,196,660,000km is the distance from saturn to mars")
+
+elif (namee.strip()).lower() == 'saturn' and (place.strip()).lower() == 'jupiter':
+    print("646,270,000km is the distance from saturn to jupiter")
+
+elif (namee.strip()).lower() == 'saturn' and (place.strip()).lower() == 'uranus':
+    print("1,448,950,000km is the distance from saturn to uranus")
+
+elif (namee.strip()).lower()  == 'saturn' and (place.strip()).lower() == 'neptune':
+    print('is the distance from saturn to neptune')
+
+
+## Travel FROM URANUS to Other Planets
+if (namee.strip()).lower() == 'uranus' and (place.strip()).lower() == 'earth':
+    print("2,723,950,000km is the distance from uranus to earth")
+elif (namee.strip()).lower() == 'uranus' and (place.strip()).lower() == 'mercury':
+    print("2,815,640,000km is the distance from uranus to mercury")
+elif (namee.strip()).lower() == 'uranus' and (place.strip()).lower() == 'venus': 
+    print("2,765,350,000km is the distance from uranus to venus")
+elif (namee.strip()).lower() == 'uranus' and (place.strip()).lower() == 'mars':
+    print("2,645,610,000km is the distance from uranus to mars")
+elif (namee.strip()).lower() == 'uranus' and (place.strip()).lower() == 'jupiter':
+    print("2,095,220,000km is the distance from uranus to jupiter")
+elif (namee.strip()).lower() == 'uranus' and (place.strip()).lower() == 'saturn':
+    print("1,448,950,000km is the distance from uranus to saturn")
+elif (namee.strip()).lower()  == 'uranus' and (place.strip()).lower() == 'neptune':
+    print('1,627,450,000km is the distance from uranus to neptune')
+
+
+## Travel FROM NEPTUNE to Other Planets
+if (namee.strip()).lower() == 'neptune' and (place.strip()).lower() == 'earth':
+    print("4,351,400,000km is the distance from neptune to earth")
+elif (namee.strip()).lower() == 'neptune' and (place.strip()).lower() == 'mercury':
+    print("4,443,090,000km is the distance from neptune to mercury")
+elif (namee.strip()).lower() == 'neptune' and (place.strip()).lower() == 'venus': 
+    print("4,392,800,000km is the distance from neptune to venus")
+elif (namee.strip()).lower() == 'neptune' and (place.strip()).lower() == 'mars':
+    print("4,273,060,000km is the distance from neptune to mars")
+elif (namee.strip()).lower() == 'neptune' and (place.strip()).lower() == 'jupiter':
+    print("3,722,670,000km is the distance from neptune to jupiter")
+elif (namee.strip()).lower() == 'neptune' and (place.strip()).lower() == 'saturn':
+    print("3,076,400,000km is the distance from neptune to saturn")
+elif (namee.strip()).lower()  == 'neptune' and (place.strip()).lower() == 'uranus':
+    print('1,627,450,000km is the distance from neptune to uranus')
