@@ -9,4 +9,72 @@ c = "aryan"
 l = []  --> is called as empty list and can contain any datatype of python.
 list1 = [10, 20, 40, 50, 90, 100]
 list2 = [10.5, 50, 40, 'aryan', 20, 55.52]
+list3 = [10, 20, list1, list2]
+
+>>> list1
+[10, 20, 40, 50, 90, 100]
+>>> type(list1)
+<type 'list'>
+>>> 
+
+>>> c= "Aryan"
+>>> type(c)
+<type 'str'>
+>>> 
+Mercury	Venus	0.34	50,290,000	31,248,757
+Mercury	Earth	0.61	91,691,000	56,974,146
+Mercury	Mars	1.14	170,030,000	105,651,744
+Mercury	Jupiter	4.82	720,420,000	447,648,234
+Mercury	Saturn	9.14	1,366,690,000	849,221,795
+Mercury	Uranus	18.82	2,815,640,000	1,749,638,696
+Mercury	Neptune	29.70	4,443,090,000	2,760,936,126
+Venus	Earth	0.28	41,400,000	25,724,767
+Venus	Mars	0.8	119,740,000	74,402,987
+Venus	Jupiter	4.48	670,130,000	416,399,477
+Venus	Saturn	8.80	1,316,400,000	817,973,037
+Venus	Uranus	18.49	2,765,350,000	1,718,388,490
+Venus	Neptune	29.37	4,392,800,000	2,729,685,920
+Earth	Mars	0.52	78,340,000	48,678,219
+Earth	Jupiter	4.2	628,730,000	390,674,710
+Earth	Saturn	8.52	1,275,000,000	792,248,270
+Earth	Uranus	18.21	2,723,950,000	1,692,662,530
+Earth	Neptune	29.09	4,351,400,000	2,703,959,960
+Mars	Jupiter	3.68	4,392,800,000	342,012,346
+Mars	Saturn	7.99	1,196,660,000	743,604,524
+
+
+Mars	Uranus	17.69	2,645,610,000	1,643,982,054
+Mars	Neptune	28.56	4,273,060,000	2,655,279,484 
+
+Jupiter	Saturn	4.32	646,270,000	401,592,178
+Jupiter	Uranus	14.01	2,095,220,000	1,301,969,708
+Jupiter	Neptune	24.89	3,722,670,000	2,313,267,138
+Saturn	Uranus	9.7	1,448,950,000	900,377,530
+Saturn	Neptune	20.57	3,076,400,000	1,911,674,960
+Uranus	Neptune	10.88	1,627,450,000	1,011,297,430
+
+
+
+
+
+name = [4, 4, 5, 3]
+print(name[3])
+
+
+
+
+-------------------------------
+ARYAN HOTEL  BILLING SOFTWARE
+-------------------------------
+Customer Name: <<Dhanasekara>>
+Table : <<5>>
+-------------------------------
+Item               Quantity Price
+---------------------------------
+<<Masala Dosa>>       <<2 >>      << 60>>
+Oinon Dosa         1        30
+Water Bottle       1        22
+
+Total               4       112
+---------------------------------
 

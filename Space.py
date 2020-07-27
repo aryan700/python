@@ -49,7 +49,7 @@ elif (namee.strip()).lower() == 'earth' and (place.strip()).lower() == 'venus':
 
 elif (namee.strip()).lower() == 'earth' and (place.strip()).lower() == 'mars': 
     print("78,340,000km is the distance from earth to mars")
-    print("")
+ck
 
 elif (namee.strip()).lower() == 'earth' and (place.strip()).lower() == 'jupiter':
     print("628,730,000km is the distance from earth to jupiter")
